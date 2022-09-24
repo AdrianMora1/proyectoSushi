@@ -1,0 +1,46 @@
+.caption {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  width: 100%;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  width: 10%;
+}
+.carousel-control-prev-icon {
+  background-image: url("../img/prevIcon.png");
+}
+.carousel-control-next-icon {
+  background-image: url("../img/nextIcon.png");
+}
+.carousel-indicators [data-bs-target] {
+  background-color: #000;
+}
+
+.fondoSushi {
+  position: relative;
+  background: rgba(0, 0, 0, 0.5) url("../img/sushiAbout.jpg");
+  height: 400px;
+  width: 100%;
+  background-blend-mode: darken;
+  margin-top: 20px;
+}
+.fondoSushi h2 {
+  position: absolute;
+  color: rgb(240, 240, 240);
+  top: 10px;
+  width: 70%;
+  margin: 0 15%;
+}
+.bordeH2 {
+  margin-top: 10%;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #000;
+}
+.boton {
+  margin: 0 35%;
+}
+.botonCard {
+  margin: 0 35%;
+}
